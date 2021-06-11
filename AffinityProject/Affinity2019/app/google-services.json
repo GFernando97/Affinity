@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622541811303",
+    "firebase_url": "https://affinityitaly.firebaseio.com",
+    "project_id": "affinityitaly",
+    "storage_bucket": "affinityitaly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622541811303:android:b9d90657f0985923",
+        "android_client_info": {
+          "package_name": "com.affinity.affinityteam.affinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622541811303-q88pcrn11ka6ito6fkfn2l5ee36p59fc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.affinity.affinityteam.affinity",
+            "certificate_hash": "d7cf8e60afc6cf1f7c17a8763f958351e26c6644"
+          }
+        },
+        {
+          "client_id": "622541811303-j8oakauhb8bjufvifu8d2e19iqdc0d4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_mEHF6W4tPUOqp-3tVrnNN_3npEkQKsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622541811303-j8oakauhb8bjufvifu8d2e19iqdc0d4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

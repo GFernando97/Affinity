@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/prof_img"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:id="@+id/id_username"
+        android:layout_toRightOf="@id/prof_img"
+        android:layout_toEndOf="@id/prof_img"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@id/prof_img"
+        android:layout_toEndOf="@id/prof_img"
+        android:layout_below="@id/id_username"
+        android:id="@+id/img_on"
+        app:civ_border_color="#05df29"
+        app:civ_border_width="10dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="10dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@id/prof_img"
+        android:layout_toEndOf="@id/prof_img"
+        android:layout_below="@id/id_username"
+        android:id="@+id/img_off"
+        app:civ_border_color="#bfbfbf"
+        app:civ_border_width="10dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_msg"
+        android:layout_below="@id/id_username"
+        android:hint="asdasd"
+        android:layout_toRightOf="@id/prof_img"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>
